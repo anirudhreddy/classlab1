@@ -1,0 +1,67 @@
+﻿@font-face {
+    font-family: 'Armata-Regular';
+    src: url('../Assets/fonts/Armata-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../Assets/fonts/KaushanScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FjallaOne-Regular';
+    src: url('../Assets/fonts/FjallaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Orbitron-Black';
+    src: url('../Assets/fonts/Orbitron-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Play-Regular';
+    src: url('../Assets/fonts/Play-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url('../Assets/images/blackbg1.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Orbitron-Black;
+    color:lightgray;
+}
+
+.mainhead{
+    font-family: KaushanScript-Regular;
+   position:relative;
+    left: 420px;
+    font-size:60px;
+    color:firebrick;
+    
+}
+.subhead{
+    font-family: KaushanScript-Regular;
+     position:relative;
+     left: 300px;
+     color:firebrick;
+     
+}
+.regLabels{
+    font-family:FjallaOne-Regular;
+     color:firebrick;
+
+}
+
+.registrationLabels{
+    font-family: Play-Regular;
+
+}
+
+#educationRadioButtonList{
+    font-family: Armata-Regular;
+}
+
+#skillSetCheckBoxList {
+    font-family: Armata-Regular;
+}
+
